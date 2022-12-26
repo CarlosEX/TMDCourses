@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cison Academy</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+	  
+	  <!-- barra de navegacao-->
+	  <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src="images/menu.png" class="menu-icon">
+        <img src="images/logo-cison-academy.png" class="logo">
+      </div>
+      
+      <div class="nav-right flex-div">
+        <!--img src="images/upload.png">
+        <img src="images/more.png"-->
+        <img src="images/notification.png">
+        <img src="images/logo-cison.png" class="user-icon">
+      </div>
+    </nav>
+    
+    <!-- sidebar -->
+    <div class="sidebar">
+      <div class="shortcut-links">
+        <!--a href=""><img src="images/home.png"><p>Home</p></a>
+        <a href=""><img src="images/explore.png"><p>POO</p></a>
+        <a href=""><img src="images/subscriprion.png"><p>SOLID</p></a>
+        <a href=""><img src="images/library.png"><p>Clean Code</p></a>
+        <a href=""><img src="images/history.png"><p>Linux</p></a-->
+        <a><img src="images/show-more.png"><p>Termux para Devs</p></a>
+        <hr>
+      </div>
+      <div class="subscribed-list">
+        <h3>Instrutor</h3>
+        <a><img src="images/carlos.jpg"><p>Carlos Antonio</p></a>
+      </div>
+    </div>
+    
+    <!-- --------- main ..................-->
+    <div class="container">
+
+      <!-- Banner do curso-->
+      <div class="banner">
+        <img src="images/banner-tmd-termux-para-devs-desenvolvedores.png">
+      </div>
+      
+      <!-- Descrição do curso e call action-->
+      <div class="plublisher">
+        <div>
+          <p>Termux para devs</p><br>
+            <span>
+              Se você possui um celular android, saiba que, além de uma ferramenta de comunicação funcional, você tem nas mãos um computador extremamente poderoso, rápido e eficiente. <br>Buscando explorar esse poder oculto e pouco explorado nos celulares, iniciei a maior formação para programadores que gostam de fazer muito com pouco, programando 100% dos seus celulares.<br><br>
+              De um simples script que faz webscraping na internet, robôs automáticos, programas ompletos em shell script, python, c, c++, até sistemas e sites web com html, css, javascript, node e integração extremamente produtiva com Git e GitHub.
+                
+              Nesse treinamento, vamos começar do absoluto zero, partindo da instalação das ferramentas, configuração do ambiente, explorando as APIs do aplicativos que vamos utilizar, como também, conhecimentos extremamente uteis como por exemplo: shell script, grep, sed, regex, awk, curl, jq, comandos linux, linux, gerenciamento e acesso ao diretórios do celular (CDCARD e STORAGE), instalação do Ubuntu CLI e muito mais.
+              <br><br>
+              Não é o foco desse curso, mais para quem curte a área de haking, esse curso vai fornecer um conhecimento extremamente profundo de como criar, gerenciar e aplicar, ferramentas e scripts de exploração de vulnerabilidades, criação de scripts para hakear e se proteger entre outros.
+                
+              São vários módulos, explorando diversos conhecimentos que somados, irão te fornecer o conhecimento necessário, para fazer muito com pouco e extrair o máximo de produtividade de um aparelho celular. A produtividade, será equivalente e superior quanto ao uso de um pc normal. A única desvantagem, que você deve conhecer, antes de começar esse curso, é o tamanho da tela. Mas até isso, no curso, vamos aprender, como configurar o nosso ambiente, de forma que, cada centímetro, seja configurado e ajustado para facilitar a nossa produtividade.
+                
+              O que você está esperando? Venha fazer parte da geração que fez do celular, o seu computador de bolso e sabe o que é ser produtivo e um programador raiz.
+            </span>
+
+        </div>    
+      </div>
+      <br>
+      <button onclick="location.href='https://termuxparadevs.club.hotmart.com/login'" type="button">Cadastro Gratuito</button>
+      <br>
+
+      <!-- Vídeo de demostração-->
+      <!--div class="video-container">
+        <iframe width="560" height="315" src="https://youtu.be/TFuPAeoLo_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div-->
+      <br>
+      
+      <!-- container cursos -->
+      <div class="list-container">
+        
+        <!-- div curso Termux -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-termux-config.png" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a>[Termux] config - Configuração do Termux e dependências.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Sobre o curso</summary>
+              <p>Esse módulo, é um dos mais importantes a ser concluído. Pois, ele trata da instalação correta do Termux, instalação de ferramentas complementares e algumas modificações de pacotes no que diz respeito ao uso do terminal com bash e zsh.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>Criando um setup simples com seu celular, otg e teclado</li><br>
+                <li>Instalando o termux do jeito certo</li><br>
+                <li>Configurando acesso ao armazenamento interno do celular (SDCARD e STORAGE)</li><br>
+                <li>Vim / Vim-Python instalando o editor de texto padrão do curso</li><br>
+                <li>Customizando o tema do termux com o colors.properties</li><br>
+                <li>Gerenciando pacotes (in, install, search, clean, list-all, show, upgrade, reinstall, ...)</li><br>
+                <li>Aula completa sobre o Termux-Dialog</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+              
+          </div>
+        </div>
+
+        <!-- div curso Termux -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-termux.jpeg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] API - Recursos poderosos do Termux-API.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Este addon expõe a funcionalidade do dispositivo como API para programas de linha de comando no Termux.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux] API - termux-dialog speech - STT Speech tô Text - criando script simples em shell script.</li><br>
+                <li>API - Listando os contatos do telefone em um comando</li><br>
+                <li>API - color.properties alterando as cores do background, cursor e letras do Termux</li><br>
+                <li>API - TOAST - pop-up em tela</li><br>
+                <li>API - brightness "alterando o brilho da tela pela linha de comando"</li><br>
+                <li>API battery-status - Obtendo status da bateria"</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Termux Git -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-git.jpeg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Git.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde pequenas a pequenas projetos muito grandes com rapidez e eficiência.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux] Git Install / Remove.</li><br>
+                <li>[Termux] Git config --global user.name/email core.editor...</li><br>
+                <li>[Termux] Git config --unset</li><br>
+                <li>[Termux] Git config --replace-all</li><br>
+                <li>[Termux] Git status --short --verbose</li><br>
+                <li>[Termux] Git add</li><br>
+                <li>[Termux] Git rm --cached -f</li><br>
+                <li>[Termux] Git rm -r --cached-f -q</li><br>
+                <li>[Termux] Git - git commit</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Termux Regex -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-regex.jpeg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Regex.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Em ciência da computação, uma expressão regular ou "Regex" (ou os estrangeirismos regex ou regexp [1] , abreviação do inglês regular expression) provê uma forma concisa e flexível de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões de caracteres. Expressões regulares são escritas numa linguagem formal que pode ser interpretada por um processador de expressão regular, um programa que serve um gerador de analisador sintático ou examina o texto e identifica as partes que casam com a especificação dada.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux] Regex - install lynx Browser em modo texto para CLI.</li><br>
+                <li>[Termux] Regex vim - highlight hlsearch incsearch.</li><br>
+                <li>[Termux] Regex vim - consultas literais</li><br>
+                <li>[Termux] Regex - Metacaractere representante.</li><br>
+                <li>[Termux] Regex - Extraindo dados Json com Grep e Sed - '/s/^.*: //...</li><br>
+                <li>[Termux] Regex - Lista [aAbBcÇ]...</li><br>
+                <li>[Termux] Regex - Alterando arquivo com sed 's/^pattern.*$/...</li><br>
+                <li>[Termux] Regex intervalos em listas [0-9 a-z][2-7c-h]...</li><br>
+                <li>[Termux] Regex - Intervalos de letras e números. for, substring and If nunca mais</li><br>
+                <li>[Termux] Regex - Classes POSIX - Estruturas especiais "como localizar letras acentuadas com Regex?"</li><br>
+                <li>[Termux] Regex + Analytics - Extraindo padrões um site e gerando gráficos. O poder do REGEX.</li><br>
+                <li>[Termux] Regex - Listas Negadas [ ^^.]</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Termux Bot -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-termux-bot.jpeg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Bot.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Basicamente, Bots − abreviação de robots − são programas desenvolvidos para realizar alguma tarefa de maneira padronizada e repetitiva. Essa tarefa pode ser  feita de forma automática ou com base em algum comando gatilho feito por um humano ou outro programa.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux] BOT Automação - Criando um Robô que extrai o preço do dólar a cada minuto e gera notificação...</li><br>
+                <li>[Termux] Automação Android - Robô para ajustar brilho do celular com base no nível da bateria.</li><br>
+                <li>Criando Bot que extrai o número de inscritos do canal a cada minuto no celular.</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Termux Shell Script -->
+        <div class="vid-list">
+          <a ><img src="images/thumb-shellscript.jpeg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Shell Script.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Shell script é o nome dado a um arquivo que será interpretado por algum programa tipo Shell. Atualmente existem vários programas tipo Shell. Além dos principais - sh e bash -, existem também, ksh, zsh, csh e tcsh. Um Shell script (ou script em Shell) necessita basicamente do interpretador Shell.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux] Shell Script - Do básico ao avançado</li><br>
+                <li>[Termux] Shell Script - Criando repositório Git do treinamento</li><br>
+                <li>[Termux] Shell Script - npm install bats-core | chmod +x ....</li><br>
+                <li>[Termux] Shell Script - Unit Test git submodule add bats-core/suport/assert.</li><br>
+                <li>[Termux] Shell Script - criando arquivo/script de instalação dos módulos de test unitário bats-core</li><br>
+                <li>[Termux] Shell Script - Unit Test | Primeiro script de teste</li><br>
+                <li>[Termux] Shell Script - Unit test bats-core | Syntax Highlighting</li><br>
+                <li>[Termux] Shell Script - #!Shebang Ruby, Javascript, Python, Perl</li><br>
+                <li>[Termux] Shell Script - Redirecionadores VS touch. Não use touch para criar arquivo 126...X + lento!</li><br>
+              </ul>
+
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Termux Open Py xl-->
+        <div class="vid-list">
+          <a ><img src="images/thumb-openpyxl.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Python Openpyxl Excel.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>openpyxl é uma biblioteca Python para ler/gravar arquivos xlsx/xlsm/xltx/xltm/xltm do Excel 2010. Nasceu da falta de biblioteca existente para ler / escrever nativamente a partir do Python o formato Office Open XML.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux - Openxlpy] Programe para o Microsoft Excel e automatize com Python e Termux no seu celular!</li><br>
+                <li>[Termux - Excel] Unzip manipulando o formato OOXML do pacote Office</li><br>
+              </ul>
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso ORM peewee python-->
+        <div class="vid-list">
+          <a ><img src="images/thumb-peewee.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Python ORM peewee.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Peewee é um ORM simples e pequeno. Tem poucos (mas expressivos) conceitos, fazendo é fácil de aprender e intuitivo de usar.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>[Termux - peewee] ORM Python para banco de dados (SQLIte, MySQL, PostgreSQL ...)</li><br>
+              </ul>
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso Criando sites-->
+        <div class="vid-list">
+          <a ><img src="images/thumb-criando-site.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Python Criando Sites.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Nesse módulo, iremos aprender a como criar sites completos, através do termux.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>Criando sites completos de forma rápida pelo celular com Termux</li><br>
+                <li>[Termux] Infraestrutura perfeita para programar no celular com Backend e Frontend - Site completo!</li><br>
+              </ul>
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        <!-- div curso SQL Analytics-->
+        <div class="vid-list">
+          <a ><img src="images/sql-analytics.webp" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="images/logo-cison.png">
+            <div class="vid-info">
+              <a >[Termux] - Python Criando Sites.</a>
+            </div>
+          </div>
+          <div class="div-description-course"><br>
+            <details>
+              <summary>Conteúdo do curso</summary>
+              <p>Nesse módulo, vamos explorar o uso da linguagem SQL para análises de dados. Além disso, vamos aprender a utilizar comandos do Linux como o SED, para manipularmos arquivos de texto (txt). O banco de dados que iremos utilizar, será o SQLite, e será 100% utilizado através da linha de comando.</p><br>
+              <h3>Aulas gravadas</h3>
+              <br>
+              <ul>
+                <li>Introdução do curso</li><br>
+                <li>[Termux - SQL Analytics] - Organização de pastas e arquivos do projeto de análise SQL</li><br>
+                <li>[Termux - SQL Analytics] - Criando repositório do projeto com  GIT</li><br>
+                <li>[Termux - SQL Analytics] SED script para excluir linhas específicas em arquivo txt</li><br>
+                <li>[Termux - SQL Analytics] ECHO criando script para adicionar nova linha em branco em arquivo .txt</li><br>
+                <li>[Termux - SQL Analytics] Editando linhas específicas em arquivo .txt com SED</li><br>
+                <li>[Termux - SQL Analytics] Adicionando linha ao final do arquivo com SED - $ a</li><br>
+              </ul>
+              <div class="vid-button-course">
+                <button onclick="location.href='https://m.youtube.com/watch?v=6ER1fGkQiEI&list=PLV2Wfr3HZ9ti_yrpu8UwZibTRC-NggqGk&index=1'" type="button">Iniciar Curso</button>
+              </div>
+
+              </details>
+          </div>
+        </div>
+
+        
+
+      </div>   
+	</body>
+  <footer>
+    <p>Autor: Carlos Antonio<br>
+    <a href="mailto:hege@example.com">cison@email.com</a></p>
+  </footer>
+	<script src="./js/script.js"></script>
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+	
+</html>
+
